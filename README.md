@@ -7,7 +7,20 @@
 
 
 ```css
-
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background-color: rgb(46, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
 
 
 ```
@@ -16,26 +29,11 @@
 
 ## Demo 📸
 
-life demo link [( https://farwamuhibzada.github.io/Personal_Portfolio/)]
+life demo link [()]
 
 how it looks in desktop screen
 
-![first page](./img/desktop2.PNG)
-
-![second page](./img/dwsktop2.PNG)
-
-how it looks in ipad screen
-
-![second page](./img/ipad.PNG)
-
-how it looks in smartphone screen
-
-![second page](./img/mobile.PNG)
-
-
-
-
-
+![screenshot](./assets/screenshot%20of%20this%20project.jpg)
 
 
 ## Technologies Used 🛠️
