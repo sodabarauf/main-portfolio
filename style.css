@@ -256,6 +256,12 @@ li {
   color: #fff;
 }
 
+.education {
+  background-image: url(./assets/pink\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .education .box-container {
   display: flex;
   align-items: center;
@@ -263,12 +269,6 @@ li {
   flex-wrap: wrap;
   padding: 1rem 0;
   padding-left: 3rem;
-}
-
-.education {
-  background-image: url(./assets/pink\ background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .education .box-container .box p {
