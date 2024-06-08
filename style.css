@@ -36,9 +36,7 @@ html::-webkit-scrollbar-thumb {
   background: var(--pink); 
 }
 body {
-  overflow-x: hidden;
   background-color: white;
-  padding-left: 35rem;
 }
 
 section {
@@ -79,60 +77,40 @@ section {
 }
 
 header {
-  position:fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1000;
-  height: 100%;
-  width: 35rem;
-  background-color: rgb(46, 40, 40);
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(163, 23, 133);
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column;
+  flex-flow: row;
   text-align: center;
 }
 
-header .container img {
-  height: 17rem;
-  width: 17rem;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  border: .7rem solid var(--pink);
-}
-
-header .container .name {
-  font-size: 3.5rem;
-  color: #fff;
-}
-
-header .container .post {
-  font-size: 2rem;
-  color: #fff;
-}
-
-header .navbar {
+.navbar {
+  position: fixed;
   width: 100%;
 
 }
 
-header .navbar ul {
+.navbar ul { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
   list-style: none;
-  padding: 1rem 3rem;   
-}
-
-header .navbar ul li a {
-  display: block;
-  padding: 1rem;
-  margin: 1.5rem 0;
-  background: #333;
-  color: #fff;
   font-size: 2rem;
-  border-radius: 5rem;
+  margin: 1rem;
 }
 
-header .navbar ul li a:hover {
+.navbar ul li a:hover {
   background: var(--pink);
 }
 
@@ -144,6 +122,19 @@ header .navbar ul li a:hover {
   background-image: url(./assets/pink\ background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: .7rem solid var(--pink);
+  margin-top: 25rem;
+  margin-right: 20rem;
+  position: absolute;
+  top: 0;
+  right: 10rem;
 }
 
 .home h3 {
@@ -163,7 +154,7 @@ header .navbar ul li a:hover {
 .home p {
   font-size: 2rem;
   color: #222;
-  padding: 1rem 0;
+  padding-right: 40rem;
 }
 
 .about .row {
@@ -380,4 +371,19 @@ footer {
   justify-content: space-between;
   padding: 4rem;
   font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .home {
+    padding: 1rem 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+section .container img {
+  display: none;
+  }
 }
