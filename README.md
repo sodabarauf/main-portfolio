@@ -29,7 +29,7 @@ header {
 
 ## Demo 📸
 
-life demo link [()]
+life demo link [(https://sodabarauf.github.io/main-portfolio/)]
 
 how it looks in desktop screen
 
