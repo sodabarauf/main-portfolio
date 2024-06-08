@@ -178,6 +178,14 @@ li {
   font-family: normal;
 }
 
+.education .box-container .box span {
+  font-size: 2rem;
+  background: #222;
+  color: #fff;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+}
+
 .about .row .info h3 span {
   color: #333;
   padding: 0.5rem;
@@ -188,6 +196,33 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.education .box-container .box {
+  width: 27rem;
+  margin: 2rem 1rem;
+  padding-left: 4rem;
+  border-left: 0.2rem solid var(--pink);
+  position: relative;
+}
+
+.portfolio .box-container .box {
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.contact .row form .box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #333;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
 }
 
 .about .row .counter .box {
@@ -201,6 +236,12 @@ li {
 .about .row .counter .box  span {
   font-size: 4rem;
   color: var(--pink);
+}
+
+.education .box-container .box h3 {
+  font-size: 3rem;
+  color: #222;
+  padding-top: 1.5rem;
 }
 
 .about .row .counter .box  h3 {
@@ -224,33 +265,13 @@ li {
   padding-left: 3rem;
 }
 
-.education .box-container .box {
-  width: 27rem;
-  margin: 2rem 1rem;
-  padding-left: 4rem;
-  border-left: 0.2rem solid var(--pink);
-  position: relative;
-}
-
 .education {
   background-image: url(./assets/pink\ background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.education .box-container .box span {
-  font-size: 2rem;
-  background: #222;
-  color: #fff;
-  border-radius: 5rem;
-  padding: 0.5rem 2.5rem;
-}
 
-.education .box-container .box h3 {
-  font-size: 3rem;
-  color: #222;
-  padding-top: 1.5rem;
-}
 
 .education .box-container .box p {
   font-size: 1.4rem;
@@ -280,14 +301,7 @@ li {
   padding: 2rem 0;
 }
 
-.portfolio .box-container .box {
-  height: 20rem;
-  width: 26rem;
-  border-radius: 1rem;
-  margin: 2rem;
-  overflow: hidden;
-  cursor: pointer;
-}
+
 
 .portfolio .box-container .box img {
   height: 100%;
@@ -323,16 +337,6 @@ li {
   padding: 2rem;
   margin: 2rem;
   padding-bottom: 4rem;
-}
-
-.contact .row form .box {
-  padding: 1.5rem;
-  margin: 1rem 0;
-  background: #333;
-  color: #fff;
-  text-transform: none;
-  font-size: 1.7rem;
-  width: 100%;
 }
 
 .contact .row form .message {
