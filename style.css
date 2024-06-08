@@ -233,12 +233,19 @@ li {
   margin: 2rem;
 }
 
-.about .row .counter .box  span {
+.about,
+.row,
+.counter,
+.box,
+span {
   font-size: 4rem;
   color: var(--pink);
 }
 
-.education .box-container .box h3 {
+.education,
+.box-container,
+.box,
+h3 {
   font-size: 3rem;
   color: #222;
   padding-top: 1.5rem;
@@ -335,19 +342,28 @@ li {
   padding-bottom: 4rem;
 }
 
-.contact .row form .message {
+.contact,
+.row form,
+.message {
   height: 15rem;
   resize: none;
 }
 
-.contact .row  .content .title {
+.contact,
+.row,
+.content,
+.title {
   text-transform: uppercase;
   color: #222;
   font-size: 3rem;
   padding-bottom: 2rem;
 }
 
-.contact .row  .content .info h3 {
+.contact,
+.row,
+.content,
+.info,
+h3 {
   display: flex;
   align-items: center;
   font-size: 2rem;
