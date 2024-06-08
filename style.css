@@ -16,7 +16,7 @@
   outline: none;
   border: none;
   text-transform: capitalize;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -25,16 +25,17 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 1.4rem;    
+  width: 1.4rem;   
 }
 
 html::-webkit-scrollbar-track {
-  background-color: #222;    
+  background-color: #222; 
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--pink); 
+  background: var(--pink);
 }
+
 body {
   background-color: white;
 }
@@ -42,7 +43,7 @@ body {
 section {
   min-height: 100vh;
   padding: 1rem;
-  }
+}
 
 .btn {
   padding: 1rem 3rem;
@@ -55,7 +56,7 @@ section {
 }
 
 .btn i {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-size: 1.8rem;
 }
 
@@ -68,7 +69,7 @@ section {
   margin: 0 6rem;
   font-size: 4rem;
   padding: 1rem;
-  border-bottom: .1rem solid black;
+  border-bottom: 0.1rem solid black;
   color: #222;
 }
 
@@ -94,10 +95,9 @@ header {
 .navbar {
   position: fixed;
   width: 100%;
-
 }
 
-.navbar ul { 
+.navbar ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -129,7 +129,7 @@ li {
   width: 25rem;
   border-radius: 50%;
   object-fit: cover;
-  border: .7rem solid var(--pink);
+  border: 0.7rem solid var(--pink);
   margin-top: 25rem;
   margin-right: 20rem;
   position: absolute;
@@ -180,7 +180,7 @@ li {
 
 .about .row .info h3 span {
   color: #333;
-  padding: 0 .5rem;
+  padding: 0.5rem;
 }
 
 .about .row .counter {
@@ -228,7 +228,7 @@ li {
   width: 27rem;
   margin: 2rem 1rem;
   padding-left: 4rem;
-  border-left: .2rem solid var(--pink);
+  border-left: 0.2rem solid var(--pink);
   position: relative;
 }
 
@@ -243,7 +243,7 @@ li {
   background: #222;
   color: #fff;
   border-radius: 5rem;
-  padding: .5rem 2.5rem;
+  padding: 0.5rem 2.5rem;
 }
 
 .education .box-container .box h3 {
@@ -345,7 +345,6 @@ li {
   color: #222;
   font-size: 3rem;
   padding-bottom: 2rem;
-
 }
 
 .contact .row  .content .info h3 {
@@ -377,8 +376,13 @@ footer {
   html {
     font-size: 55%;
   }
+
   .home {
     padding: 1rem 4rem;
+  }
+
+  section .container img {
+    position: static;
   }
 }
 
