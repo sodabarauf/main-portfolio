@@ -390,4 +390,10 @@ footer {
   section .container img {
     display: none;
   }
+
+  .home p {
+    display: contents;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
