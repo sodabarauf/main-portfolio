@@ -271,8 +271,6 @@ li {
   background-size: cover;
 }
 
-
-
 .education .box-container .box p {
   font-size: 1.4rem;
   color: #222;
@@ -300,8 +298,6 @@ li {
   flex-wrap: wrap;
   padding: 2rem 0;
 }
-
-
 
 .portfolio .box-container .box img {
   height: 100%;
