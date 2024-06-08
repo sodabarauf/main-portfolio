@@ -103,67 +103,67 @@ header .container img {
 }
 
 header .container .name {
-    font-size: 3.5rem;
-    color: #fff;
+  font-size: 3.5rem;
+  color: #fff;
 }
 
 header .container .post {
-    font-size: 2rem;
-    color: #fff;
+  font-size: 2rem;
+  color: #fff;
 }
 
 header .navbar {
-    width: 100%;
+  width: 100%;
 
 }
 
 header .navbar ul {
-    list-style: none;
-    padding: 1rem 3rem;   
+  list-style: none;
+  padding: 1rem 3rem;   
 }
 
 header .navbar ul li a {
-    display: block;
-    padding: 1rem;
-    margin: 1.5rem 0;
-    background: #333;
-    color: #fff;
-    font-size: 2rem;
-    border-radius: 5rem;
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #333;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5rem;
 }
 
 header .navbar ul li a:hover {
-    background: var(--pink);
+  background: var(--pink);
 }
 
 .home {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    padding: 0 15rem;
-    background-image: url(./assets/pink\ background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+  background-image: url(./assets/pink\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home h3 {
-    font-size: 2.5rem;
-    color: #222;
+  font-size: 2.5rem;
+  color: #222;
 }
 
 .home h1 {
-    font-size: 5rem;
-    color: #222;
+  font-size: 5rem;
+  color: #222;
 }
 
 .home h1 span {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 .home p {
-    font-size: 2rem;
-    color: #222;
-    padding: 1rem 0;
+  font-size: 2rem;
+  color: #222;
+  padding: 1rem 0;
 }
 
 .about .row {
@@ -175,238 +175,209 @@ header .navbar ul li a:hover {
 }
 
 .about .row .info {
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
+  flex: 1 1 48rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
 }
 
 .about .row .info h3 {
-    font-size: 2rem;
-    color: var(--pink);
-    padding: 1rem 0;
-    font-family: normal;
+  font-size: 2rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  font-family: normal;
 }
 
 .about .row .info h3 span {
-    color: #333;
-    padding: 0 .5rem;
+  color: #333;
+  padding: 0 .5rem;
 }
 
 .about .row .counter {
-    flex: 1 1 48rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about .row .counter .box {
-    width: 20rem;
-    background: #222;
-    text-align: center;
-    padding: 3rem;
-    margin: 2rem;
+  width: 20rem;
+  background: #222;
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem;
 }
 
 .about .row .counter .box  span {
-    font-size: 4rem;
-    color: var(--pink);
+  font-size: 4rem;
+  color: var(--pink);
 }
 
 .about .row .counter .box  h3 {
-    font-size: 2rem;
-    color: #fff;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .about button {
- padding: 2rem;
- margin: 3rem;
- background-color: #222;
- color: #fff;
+  padding: 2rem;
+  margin: 3rem;
+  background-color: #222;
+  color: #fff;
 }
 
 .education .box-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
 }
 
 .education .box-container .box {
-    width: 27rem;
-    margin: 2rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid var(--pink);
-    position: relative;
+  width: 27rem;
+  margin: 2rem 1rem;
+  padding-left: 4rem;
+  border-left: .2rem solid var(--pink);
+  position: relative;
 }
 
 .education {
-    background-image: url(./assets/pink\ background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./assets/pink\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .education .box-container .box span {
-    font-size: 2rem;
-    background: #222;
-    color: #fff;
-    border-radius: 5rem;
-    padding: .5rem 2.5rem;
+  font-size: 2rem;
+  background: #222;
+  color: #fff;
+  border-radius: 5rem;
+  padding: .5rem 2.5rem;
 }
 
 .education .box-container .box h3 {
-    font-size: 3rem;
-    color: #222;
-    padding-top: 1.5rem;
+  font-size: 3rem;
+  color: #222;
+  padding-top: 1.5rem;
 }
 
 .education .box-container .box p {
-    font-size: 1.4rem;
-    color: #222;
-    padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #222;
+  padding: 1rem 0;
 }
 
 .education .box-container .box i {
-    position: absolute;
-    top: -1.5rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    background: var(--pink);
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background: var(--pink);
 }
 
 .portfolio .box-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
 }
 
 .portfolio .box-container .box {
-    height: 20rem;
-    width: 26rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    overflow: hidden;
-    cursor: pointer;
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio .box-container .box img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .portfolio .box-container .box:hover img {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .contact {
-    background-image: url(./assets/pink\ background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./assets/pink\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact .row .content {
-    flex: 1 1 30rem;
-    padding: 4rem;
-    padding-bottom: 0;
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
 }
 
 .contact .row form {
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    padding-bottom: 4rem;
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  padding-bottom: 4rem;
 }
 
 .contact .row form .box {
-    padding: 1.5rem;
-    margin: 1rem 0;
-    background: #333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width: 100%;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #333;
+  color:#fff;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
 }
 
 .contact .row form .message {
-    height: 15rem;
-    resize: none;
+  height: 15rem;
+  resize: none;
 }
 
 .contact .row  .content .title {
-   text-transform: uppercase;
-   color: #222;
-   font-size: 3rem;
-   padding-bottom: 2rem;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 3rem;
+  padding-bottom: 2rem;
 
 }
 
 .contact .row  .content .info h3 {
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-    color:rgb(46, 40, 40);
-    padding: 1rem 0;
-    font-weight: normal;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color:rgb(46, 40, 40);
+  padding: 1rem 0;
+  font-weight: normal;
 }
 
 .contact .row  .content p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .contact .row  .content .info h3 i {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 footer {
-    color: #222;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4rem;
-    font-size: 2rem;
-}
-
-
-
-@media (width < 350px) {
-    nav .checkbox {
-        display: block;
-    }
-
-    .container ul {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh -85px);
-    left: -100%;
-    top: 85px;
-    background-color: blue;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-}
-
-nav #check:checked ~ ul {
-    left: 0;
-}
-
-ul li a {
-    font-size: 1.25rem;
-}
-
+  color: #222;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  font-size: 2rem;
 }
