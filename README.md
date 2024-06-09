@@ -5,28 +5,6 @@
 > That is a personal Portfolio webpage. that have sections that contaian all the articles and a navbar section which containe all the ancher tages and a logo picture. have an about, projects, contact us section then we use id selector to reference the specific section to specific links in navbar. This web pages is fully responsive we use @media query that adjust our page in every screen size. this is the main feature of this webpage and it has a greate design. 
 >
 
-
-```css
-header {
-    position:fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    height: 100%;
-    width: 35rem;
-    background-color: rgb(46, 40, 40);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    text-align: center;
-}
-
-
-```
-
-
-
 ## Demo 📸
 
 life demo link [(https://sodabarauf.github.io/main-portfolio/)]
